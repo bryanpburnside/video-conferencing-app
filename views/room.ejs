@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Video Conferencing Room</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    const ROOM_ID = "<%= roomId %>" // Pass room id from the backend to frontend
+  </script>
+  <script defer src="https://unpkg.com/peerjs@1.4.7/dist/peerjs.min.js"></script>
+  <script src="/socket.io/socket.io.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div id="videoGrid"></div>
+</body>
+</html>

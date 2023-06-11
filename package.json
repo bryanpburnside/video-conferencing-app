@@ -1,0 +1,30 @@
+{
+  "name": "video-conferencing-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryanpburnside/video-conferencing-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryanpburnside/video-conferencing-app/issues"
+  },
+  "homepage": "https://github.com/bryanpburnside/video-conferencing-app#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "peerjs": "^1.4.7",
+    "socket.io": "^4.6.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
